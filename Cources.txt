@@ -1,0 +1,29 @@
+https://hs-hd.net/s/kv
+
+Design:
+1. https://open.sap.com/courses/fiux2
+templates:
+https://open.sap.com/courses/fiux2/sections/57f8a7fc-ffbc-4c17-9b80-1002ae2b6115/items/6uLfEUoQjG0W22TTh7g4mC
+We use Design Stencils (Microsoft Powerpoint®)
+https://experience.sap.com/fiori-design-web/downloads/
+2. Hi-Fi prototype:
+https://www.build.me
+ 
+Development:
+1.  https://open.sap.com/courses/ui51
+
+Infrastructure (optional):
+1. https://open.sap.com/courses/hcp3a1
+We need 1-2 weeks. Get HCP user, Install SAP Netweaver on local machine, install HANA Cloud connector. Create Fiori app. 
+The Java app we do not need, we would not use this scenario.
+https://sap.github.io/cloud-s4ext/week-1/unit-5/
+https://sap.github.io/cloud-s4ext/week-1/unit-6/
+https://sap.github.io/cloud-s4ext/week-2/unit-1/
+https://sap.github.io/cloud-s4ext/week-2/unit-2/
+https://sap.github.io/cloud-s4ext/week-2/unit-3/
+https://sap.github.io/cloud-s4ext/week-2/unit-4/
+https://sap.github.io/cloud-s4ext/week-2/unit-5/
+Here you can get developer key:
+https://sap.github.io/cloud-s4ext/week-6/unit-2/
+
+
