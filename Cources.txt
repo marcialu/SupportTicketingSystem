@@ -26,4 +26,7 @@ https://sap.github.io/cloud-s4ext/week-2/unit-5/
 Here you can get developer key:
 https://sap.github.io/cloud-s4ext/week-6/unit-2/
 
+user: DEVELOPER
+pass: Appl1ance
+
 
