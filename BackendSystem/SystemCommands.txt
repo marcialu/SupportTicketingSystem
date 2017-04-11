@@ -1,0 +1,38 @@
+Local NetWeaver:
+Stopping NetWeaver AS ABAP
+Konsole (System > Konsole) 
+su -l npladm
+stopsap ALL
+
+Start SAP NetWeaver AS ABAP:
+su -l npladm
+startsap ALL
+sapcontrol -nr 00 -function GetProcessList
+
+OS admin:
+admin Appl1ance
+
+SAP OS:
+npladm Appl1ance
+
+Description : Local NetWeaver
+Application Server: 127.0.0.1
+Instance Number : 00
+System ID: NPL
+
+Client: 001
+User: Developer
+Password: Appl1ance
+Language: EN
+
+Cloud Connector
+https://localhost:8443
+Administrator
+Appl1ance
+
+
+
+
+
+
+
