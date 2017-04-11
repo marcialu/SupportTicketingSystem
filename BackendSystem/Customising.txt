@@ -1,0 +1,28 @@
+After importing all ABAP requests 
+Transaction STMS
+
+1. Create roles. Transaction PFCG
+ZSTS_USER
+ZSTS_TEAM
+ZSTS_MANAG
+
+2. Create users. Transaction SU01
+ZSTSUSER
+ZSTSTEAM1
+ZSTSTEAM1
+ZSTSMANAG
+
+3. Add objects inrevals. Transaction SNRO
+ZSTS_TIC 01	0000000001	9999999999	10
+ZSTS_SOL 01	0000000001	9999999999	10
+
+4. Generate data.
+Run program ZSTS_R_GENERDATA
+
+5. Activate service in SICF
+Service name ZSTS_SRV
+
+6. SEGW Maintain Service add system alies
+System alies: LOCAL
+
+ 
