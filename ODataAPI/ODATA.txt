@@ -6,6 +6,8 @@ Metadata:
 Personas:
 /sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet(User='DEVELOPER',RoleId='ZSTS_USER')?$format=json
 /sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$format=json
+/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=User eq 'ZSTSUSER'
+/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=RoleId eq 'ZSTS_USER'
 
 Priority:
 /sap/opu/odata/SAP/ZSTS_SRV/PRIORITYSet('1')?$format=json
@@ -26,11 +28,21 @@ SolutionCategory:
 Solution:
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet('0000000008')?$format=json
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$format=json&$top=2&$skip=2
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=CategoryId eq 'IT'
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=SolutionId ge '0000000033'
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=substringof(Description , 'stud') is not implemented
+
 
 Ticket:
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$format=json&$top=2&$skip=2
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet('0000000002')?$format=json
-
-
-
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=CategoryId eq 'IT'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=substringof(Description , 'remember') is not implemented
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=TicketId ge '0000000023'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Priority eq '1'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Status eq '3'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Rating eq '3'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Owner eq 'ZSTSUSER'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=SolvedBy eq 'ZSTSTEAM2'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Createdat gt datetime'2017-04-10T00:00:00'
 
