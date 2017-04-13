@@ -1,3 +1,7 @@
+Final submission guideline:
+https://docs.google.com/document/d/17zkvTqGW1AVviRcDtdLPvYadCpWCg2C91pwNi-5b0n4/edit#heading=h.r99dutj3pof8
+
+Group List:
 https://hs-hd.net/s/kv
 
 Design:
@@ -28,5 +32,3 @@ https://sap.github.io/cloud-s4ext/week-6/unit-2/
 
 user: DEVELOPER
 pass: Appl1ance
-
-
