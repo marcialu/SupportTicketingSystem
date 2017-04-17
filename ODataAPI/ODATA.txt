@@ -30,14 +30,15 @@ Solution:
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$format=json&$top=2&$skip=2
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=CategoryId eq 'IT'
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=SolutionId ge '0000000033'
-/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=substringof(Description , 'stud') is not implemented
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=CategoryId eq 'IT' and SolutionId ge '0000000038'
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=substringof(Description , 'Office')
+/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet('IT')/SolCatToSol
 
 
 Ticket:
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$format=json&$top=2&$skip=2
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet('0000000002')?$format=json
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=CategoryId eq 'IT'
-/sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=substringof(Description , 'remember') is not implemented
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=TicketId ge '0000000023'
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Priority eq '1'
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Status eq '3'
