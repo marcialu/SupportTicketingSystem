@@ -9,6 +9,41 @@ Error: CSRF token validation failed
 https://blogs.sap.com/2014/07/11/issues-with-csrf-token-and-how-to-solve-them/
 3rd issue – You are using external REST client for testing modify operation
 
+POST Example:
+1. GET https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet('IT')?$format=json
+Headers:
+Authorization: Basic
+x-csrf-token: fetch
+2. POST https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet
+Headers:
+Authorization: Basic
+x-csrf-token: FROM GET REQUEST
+Content-Type: application/json; charset=utf-8
+
+Body:
+{
+  "d": {
+    "__metadata": {
+      "id": "https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet('IT')",
+      "uri": "https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet('IT')",
+      "type": "ZSTS_SRV.SOLCAT"
+    },
+    "SolcatId": "IT9",
+    "SolcatTxt": "IT9 support",
+    "Createnam": "DEVELOPER",
+    "Createdat": null,
+    "Changname": "",
+    "Changedat": null,
+    "Deleted": "",
+    "SolCatToSol": {
+      "__deferred": {
+        "uri": "https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet('IT')/SolCatToSol"
+      }
+    }
+  }
+}
+
+
 https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV
 https://webidetesting0698816-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV/
 
