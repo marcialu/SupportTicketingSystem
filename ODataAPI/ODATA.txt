@@ -1,3 +1,9 @@
+Error in POSTMAN: "Note: Your browser does not support JavaScript or it is turned off. Press the button to proceed.</"
+Solution:
+1. install POSTMAN Interceptor App in CHrome.
+2. in POSTMAN App turn on Interceptor button. It is on the top of menu.
+
+
 https://webidetesting0698816-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV/
 
 Metadata:
