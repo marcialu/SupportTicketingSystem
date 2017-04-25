@@ -1,8 +1,13 @@
+
 Error in POSTMAN: "Note: Your browser does not support JavaScript or it is turned off. Press the button to proceed.</"
 Solution:
 1. install POSTMAN Interceptor App in CHrome.
 2. in POSTMAN App turn on Interceptor button. It is on the top of menu.
 3. Use Basic authorization with your HCP credentials in requests
+
+Error: CSRF token validation failed
+https://blogs.sap.com/2014/07/11/issues-with-csrf-token-and-how-to-solve-them/
+3rd issue – You are using external REST client for testing modify operation
 
 https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV
 https://webidetesting0698816-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV/
