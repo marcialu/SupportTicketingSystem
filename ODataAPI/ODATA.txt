@@ -2,6 +2,7 @@ Error in POSTMAN: "Note: Your browser does not support JavaScript or it is turne
 Solution:
 1. install POSTMAN Interceptor App in CHrome.
 2. in POSTMAN App turn on Interceptor button. It is on the top of menu.
+3. Use Basic authorization with your HCP credentials in requests
 
 https://solutioncategories-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV
 https://webidetesting0698816-i313404trial.dispatcher.hanatrial.ondemand.com/sap/opu/odata/sap/ZSTS_SRV/
