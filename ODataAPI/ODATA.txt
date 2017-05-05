@@ -106,8 +106,8 @@ Solution Category:
 Solutions:
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet/$count
 Open tickets:
-
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETOPENSet/$count
 Overdue Tickets:
-
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETOVERDUESet/$count
 
 
