@@ -101,3 +101,13 @@ Ticket:
 SPECIAL ODATA FOR DYNAMIC TILE INFO:
 My tickets:
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETMYSet/$count?$filter=Status eq '1'
+Solution Category:
+/sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet/$count
+Solutions:
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet/$count
+Open tickets:
+
+Overdue Tickets:
+
+
+
