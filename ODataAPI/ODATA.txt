@@ -51,7 +51,7 @@ Metadata:
 /sap/opu/odata/SAP/ZSTS_SRV/$metadata
 
 Personas:
-/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet(User='DEVELOPER',RoleId='ZSTS_USER')?$format=json
+2/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet(User='DEVELOPER',RoleId='ZSTS_USER')?$format=json
 /sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$format=json
 /sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=User eq 'ZSTSUSER'
 /sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=RoleId eq 'ZSTS_USER'
@@ -61,7 +61,7 @@ Priority:
 /sap/opu/odata/SAP/ZSTS_SRV/PRIORITYSet?$format=json
 
 Rating:
-/sap/opu/odata/SAP/ZSTS_SRV/RATINGSet('1')?$format=json
+sap/opu/odata/SAP/ZSTS_SRV/RATINGSet('1')?$format=json
 /sap/opu/odata/SAP/ZSTS_SRV/RATINGSet?$format=json
 
 Status:
@@ -100,7 +100,7 @@ Ticket:
 
 SPECIAL ODATA FOR DYNAMIC TILE INFO:
 My tickets:
-/sap/opu/odata/SAP/ZSTS_SRV/TICKETMYSet/$count?$filter=Status eq '1'
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETMYSet/$count?$filter=Status eq '2'
 Solution Category:
 /sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet/$count
 Solutions:
