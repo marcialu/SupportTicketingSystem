@@ -95,3 +95,9 @@ Ticket:
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=SolvedBy eq 'ZSTSTEAM2'
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=Createdat gt datetime'2017-04-10T00:00:00'
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$filter=substringof(Description , 'pass')
+
+
+
+SPECIAL ODATA FOR DYNAMIC TILE INFO:
+My tickets:
+/sap/opu/odata/SAP/ZSTS_SRV/TICKETMYSet/$count?$filter=Status eq '1'
