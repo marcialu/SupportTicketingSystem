@@ -82,6 +82,8 @@ Solution:
 /sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONSet?$filter=substringof(Description , 'Office')
 /sap/opu/odata/SAP/ZSTS_SRV/SOLCATSet('IT')/SolCatToSol
 
+/sap/opu/odata/SAP/ZSTS_SRV/SOLUTIONDISPSet?$filter=Description eq 'office' and CategoryId eq 'INT'
+
 
 Ticket:
 /sap/opu/odata/SAP/ZSTS_SRV/TICKETSet?$format=json&$top=2&$skip=2
