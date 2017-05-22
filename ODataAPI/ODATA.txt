@@ -51,10 +51,8 @@ Metadata:
 /sap/opu/odata/SAP/ZSTS_SRV/$metadata
 
 Personas:
-2/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet(User='DEVELOPER',RoleId='ZSTS_USER')?$format=json
-/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$format=json
-/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=User eq 'ZSTSUSER'
-/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=RoleId eq 'ZSTS_USER'
+/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet
+/sap/opu/odata/SAP/ZSTS_SRV/PERSONASSet?$filter=UserName eq 'Ivan'
 
 Priority:
 /sap/opu/odata/SAP/ZSTS_SRV/PRIORITYSet('1')?$format=json
